@@ -1,0 +1,22 @@
+
+
+.hide{
+
+ position: fixed;
+ width: 14%;
+ height: 70px;
+ padding-left: 10px;
+}
+
+
+@media (max-width: 600px) {
+ #btn_tog{
+  visibility: visible;
+  margin-top: -350px;
+ }
+
+ #colapso{
+  padding-left: 140px;
+  background-color: black;
+ }
+}

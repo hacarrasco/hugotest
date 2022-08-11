@@ -1,0 +1,40 @@
+.navbar{
+ position:fixed;
+ top: 0;
+ background-color: #000;
+ width: 100%;
+ height: 70px;
+ padding-left: 50px;
+ font-size: 20px;
+ z-index: 1;
+}
+
+.scrolling{
+ background-color: #000;
+ transition: all 0.5s ease;
+}
+
+.navbar-logo{
+ height:130px;
+ line-height: 50px;
+ color: rgb(255, 251, 251);
+ cursor: pointer;
+ padding-left: 30px;
+ padding-top: -5px;
+}
+
+.nav-link > img{
+ width: 60px;
+ height: 40px;
+ background: transparent;
+}
+
+
+@media (max-width: 600px) {
+ 
+ #ocultar{
+  visibility: hidden;
+ }
+
+ 
+}

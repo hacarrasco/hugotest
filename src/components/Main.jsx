@@ -6,7 +6,7 @@ const Main = () => {
   return (
    <div className='cover-container'>
     <video className='video' src={portafolio} autoPlay loop muted />
-    <h1>Hugo Carrasco</h1>
+    <h1>HUGO CARRASCO</h1>
     <p>  Developer || Full Stack || Front End  </p>
    </div>
   )
